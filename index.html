@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoops Academy - Where Passion Meets Performance</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="header-content">
+                <!-- Logo -->
+                <div class="logo">
+                    <div class="logo-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <circle cx="12" cy="12" r="6"/>
+                            <circle cx="12" cy="12" r="2"/>
+                        </svg>
+                    </div>
+                    <span class="logo-text">Hoops Academy</span>
+                </div>
+
+                <!-- Desktop Navigation -->
+               <nav class="nav-desktop">
+    <a href="#home" class="nav-link">Home</a>
+    <a href="#about" class="nav-link">About</a>
+    <a href="#programs" class="nav-link">Programs</a>
+    <a href="#coaches" class="nav-link">Coaches</a>
+    <a href="#gallery" class="nav-link">Gallery</a>
+    <a href="#review" class="nav-link">Review</a>
+    <a href="#contact" class="nav-link">Contact</a>
+</nav>
+
+
+                <!-- Join Now Button & Mobile Menu -->
+                <div class="header-actions">
+                    <button class="join-btn desktop-only">Join Now</button>
+                    
+                    <!-- Mobile menu button -->
+                    <button class="mobile-menu-btn" id="mobileMenuBtn">
+                        <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="3" y1="6" x2="21" y2="6"/>
+                            <line x1="3" y1="12" x2="21" y2="12"/>
+                            <line x1="3" y1="18" x2="21" y2="18"/>
+                        </svg>
+                        <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: none;">
+                            <line x1="18" y1="6" x2="6" y2="18"/>
+                            <line x1="6" y1="6" x2="18" y2="18"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div class="nav-mobile" id="mobileNav">
+                <nav class="mobile-nav-content">
+    <a href="#home" class="mobile-nav-link">Home</a>
+    <a href="#about" class="mobile-nav-link">About</a>
+    <a href="#programs" class="mobile-nav-link">Programs</a>
+    <a href="#coaches" class="mobile-nav-link">Coaches</a>
+    <a href="#gallery" class="mobile-nav-link">Gallery</a>
+    <a href="#review" class="mobile-nav-link">Review</a>
+    <a href="#contact" class="mobile-nav-link">Contact</a>
+    <button class="join-btn mobile-join-btn">Join Now</button>
+</nav>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <img src="https://images.unsplash.com/photo-1693517235862-a1b8c3323efb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYXNrZXRiYWxsJTIwY291cnQlMjBhcmVuYSUyMHRyYWluaW5nfGVufDF8fHx8MTc1NzI2MjI4N3ww&ixlib=rb-4.1.0&q=80&w=1080" alt="Basketball court training" class="hero-image">
+            <div class="hero-overlay"></div>
+        </div>
+
+        <div class="hero-content">
+            <h1 class="hero-title">Where Passion Meets Performance</h1>
+            <p class="hero-subtitle">Train with the best. Become the best.</p>
+            <button class="hero-cta">Enroll Today</button>
+        </div>
+
+        <!-- Scroll indicator -->
+        <div class="scroll-indicator">
+            <div class="scroll-indicator-inner">
+                <div class="scroll-indicator-dot"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <!-- Image -->
+                <div class="about-image-container">
+                    <div class="about-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1721339041100-ec39e6600362?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b3VuZyUyMGJhc2tldGJhbGwlMjBwbGF5ZXJzJTIwdHJhaW5pbmd8ZW58MXx8fHwxNzU3MjYyMjg3fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Young basketball players training" class="about-image">
+                        <!-- Decorative elements -->
+                        <div class="about-decor-1"></div>
+                        <div class="about-decor-2"></div>
+                    </div>
+                </div>
+
+                <!-- Content -->
+                <div class="about-content">
+                    <h2 class="section-title">About Hoops Academy</h2>
+                    <p class="about-description">
+                        At Hoops Academy, we believe that every player has the potential to excel. 
+                        Our mission is to develop not just skilled basketball players, but confident, 
+                        disciplined, and resilient individuals who carry these values both on and off the court.
+                    </p>
+                    <p class="about-description">
+                        Founded by former professional players and experienced coaches, we combine 
+                        cutting-edge training techniques with time-tested fundamentals to help players 
+                        reach their full potential.
+                    </p>
+
+                    <!-- Mission, Vision, Values -->
+                    <div class="about-values">
+                        <div class="value-item">
+                            <h3 class="value-title">Our Mission</h3>
+                            <p class="value-description">
+                                To provide exceptional basketball training that develops skills, character, and a lifelong love for the game.
+                            </p>
+                        </div>
+                        
+                        <div class="value-item value-gold">
+                            <h3 class="value-title">Our Vision</h3>
+                            <p class="value-description">
+                                To be the premier basketball academy where champions are made and dreams come true.
+                            </p>
+                        </div>
+                        
+                        <div class="value-item">
+                            <h3 class="value-title">Our Values</h3>
+                            <p class="value-description">
+                                Excellence, Teamwork, Respect, Perseverance, and Community.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="programs">
+        <div class="container">
+            <!-- Header -->
+            <div class="section-header">
+                <h2 class="section-title">Training Programs</h2>
+                <p class="section-description">
+                    Choose from our comprehensive training programs designed to elevate every aspect of your game. 
+                    Each program is tailored to help you reach your full potential.
+                </p>
+            </div>
+
+            <!-- Programs Grid -->
+            <div class="programs-grid">
+                <div class="program-card">
+                    <div class="program-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <circle cx="12" cy="12" r="6"/>
+                            <circle cx="12" cy="12" r="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="program-title">Skills Development</h3>
+                    <p class="program-description">Master the fundamentals with personalized skill-building sessions focused on ball handling, footwork, and basketball IQ.</p>
+                    <ul class="program-features">
+                        <li>Ball Handling</li>
+                        <li>Footwork</li>
+                        <li>Basketball IQ</li>
+                        <li>Game Situations</li>
+                    </ul>
+                    <button class="program-btn">Learn More</button>
+                </div>
+
+                <div class="program-card">
+                    <div class="program-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                        </svg>
+                    </div>
+                    <h3 class="program-title">Shooting Excellence</h3>
+                    <p class="program-description">Develop consistent shooting form and accuracy from all ranges with our specialized shooting coaches.</p>
+                    <ul class="program-features">
+                        <li>Shooting Form</li>
+                        <li>Range Extension</li>
+                        <li>Game Shots</li>
+                        <li>Mental Approach</li>
+                    </ul>
+                    <button class="program-btn">Learn More</button>
+                </div>
+
+                <div class="program-card">
+                    <div class="program-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                    </div>
+                    <h3 class="program-title">Defensive Mastery</h3>
+                    <p class="program-description">Learn advanced defensive techniques, positioning, and team defensive concepts to shut down opponents.</p>
+                    <ul class="program-features">
+                        <li>1-on-1 Defense</li>
+                        <li>Help Defense</li>
+                        <li>Rebounding</li>
+                        <li>Defensive IQ</li>
+                    </ul>
+                    <button class="program-btn">Learn More</button>
+                </div>
+
+                <div class="program-card">
+                    <div class="program-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="m6.5 6.5 11 11"/>
+                            <path d="m21 21-1-1"/>
+                            <path d="m3 3 1 1"/>
+                            <path d="m18 22 4-4"/>
+                            <path d="m2 6 4-4"/>
+                            <path d="m3 10 7-7"/>
+                            <path d="m14 21 7-7"/>
+                        </svg>
+                    </div>
+                    <h3 class="program-title">Athletic Conditioning</h3>
+                    <p class="program-description">Build the strength, speed, and endurance needed to dominate on the court with sport-specific training.</p>
+                    <ul class="program-features">
+                        <li>Strength Training</li>
+                        <li>Speed & Agility</li>
+                        <li>Endurance</li>
+                        <li>Injury Prevention</li>
+                    </ul>
+                    <button class="program-btn">Learn More</button>
+                </div>
+            </div>
+
+            <!-- CTA Section -->
+            <div class="programs-cta">
+                <h3 class="cta-title">Ready to Take Your Game to the Next Level?</h3>
+                <p class="cta-description">
+                    Join thousands of players who have transformed their game with our proven training methods.
+                </p>
+                <button class="cta-btn">Start Training Today</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coaches Section -->
+    <section id="coaches" class="coaches">
+        <div class="container">
+            <!-- Header -->
+            <div class="section-header">
+                <h2 class="section-title">Meet Our Coaches</h2>
+                <p class="section-description">
+                    Learn from the best. Our experienced coaching staff brings together decades of playing 
+                    and coaching experience to help you reach your potential.
+                </p>
+            </div>
+
+            <!-- Coaches Grid -->
+            <div class="coaches-grid">
+                <div class="coach-card">
+                    <div class="coach-image-wrapper">
+                        <img src="https://scontent.fcrk1-2.fna.fbcdn.net/v/t39.30808-6/475764731_2115652665523451_956524970108527543_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGJNlZQSxPkUbwLhTMx44lfK7Ik84bjeQkrsiTzhuN5CU89QbIa3cOHB2zfHaZDHczYgXDtgyO14DBm1LJbbUwj&_nc_ohc=UP6nNLxia5IQ7kNvwG9fPFo&_nc_oc=Adl_MjesFfGr7VTLanHjg6JaW49FQUW2ps5GqvFL0F9cQjtqdPAIzg_F56h_J2j8G2M&_nc_zt=23&_nc_ht=scontent.fcrk1-2.fna&_nc_gid=-rgbsGAOdvtPTAh61MJNzA&oh=00_AfeuLcqRfxfi88xUubU2LLvjQFjmbnyvUEga9L57ysJCxA&oe=68F2D832" alt="Mavrick Bautista" class="coach-image">
+                        <div class="coach-overlay"></div>
+                    </div>
+                    <div class="coach-content">
+                        <h3 class="coach-name">Mavrick Bautista</h3>
+                        <p class="coach-role">Head Coach & Director</p>
+                        <p class="coach-expertise">He is a prominent figure in Philippine basketball, known for his motivational coaching style with Mav's Phenomenal Basketball. Specializes in elite performance training.</p>
+                    </div>
+                </div>
+
+                <div class="coach-card">
+                    <div class="coach-image-wrapper">
+                        <img src="https://scontent.fcrk1-5.fna.fbcdn.net/v/t51.82787-15/559317616_18097489792733958_5381249465160593945_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEixjAVfANxsdC7_EruQKIklmeZNr7B9AuWZ5k2vsH0CzQjm44AlG9ud7FW9Apj--hy1TyAOG1z8RpWuRE72Laz&_nc_ohc=1ykoW55Scn4Q7kNvwEmGRRM&_nc_oc=Adnf_0X4YulGDOKIqYiwxqLujw2IfXFWTLTD-GPJIwbygIwONvtT27hr3uegowTViig&_nc_zt=23&_nc_ht=scontent.fcrk1-5.fna&_nc_gid=pwEETCL3wpalEuNw9WHyhw&oh=00_AfcoFi0vVEPwIVO24p5sOi7o2Lx4s_VQlFg20w7pCRWgKw&oe=68F2D6F4" alt="Jolo Tamayo" class="coach-image">
+                        <div class="coach-overlay"></div>
+                    </div>
+                    <div class="coach-content">
+                        <h3 class="coach-name">Jolo Tamayo</h3>
+                        <p class="coach-role">Skills Development Coach</p>
+                        <p class="coach-expertise">He is  a licensed skills coach. He is also the first ever licensed puresweat skills coach in the PHILIPPINES and in ASIA. Expert in fundamental skill development and youth coaching.</p>
+                    </div>
+                </div>
+
+                <div class="coach-card">
+                    <div class="coach-image-wrapper">
+                        <img src="https://dailyguardian.com.ph/wp-content/uploads/2022/07/Gilas-Pilipinas-bounces-back-crushes-India-in-FIBA-World-Cup-Qualifiers1.jpg" alt="Dwight Ramos" class="coach-image">
+                        <div class="coach-overlay"></div>
+                    </div>
+                    <div class="coach-content">
+                        <h3 class="coach-name">Dwight Ramos</h3>
+                        <p class="coach-role">Shooting Specialist</p>
+                        <p class="coach-expertise">Renowned shooting coach with proven track record. Helped 200+ players improve their shooting percentage.</p>
+                    </div>
+                </div>
+
+                <div class="coach-card">
+                    <div class="coach-image-wrapper">
+                        <img src="https://pbs.twimg.com/profile_images/1609291197142687744/PAHDEK0n_400x400.jpg" alt="Paul Fabritz" class="coach-image">
+                        <div class="coach-overlay"></div>
+                    </div>
+                    <div class="coach-content">
+                        <h3 class="coach-name">Paul Fabritz</h3>
+                        <p class="coach-role">Athletic Performance Coach</p>
+                        <p class="coach-expertise">Certified strength & conditioning specialist. Focus on injury prevention and athletic development.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats Section -->
+            <div class="coaches-stats">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Players Trained</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">College Scholarships</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">98%</div>
+                        <div class="stat-label">Player Satisfaction</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <!-- Header -->
+            <div class="section-header">
+                <h2 class="section-title">Gallery</h2>
+                <p class="section-description">
+                    Take a look at our players in action. From intense training sessions to game-winning moments, 
+                    see what makes Hoops Academy special.
+                </p>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-grid">
+                <div class="gallery-item" data-image="https://images.unsplash.com/photo-1620947927947-3581aed45c6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYXNrZXRiYWxsJTIwcGxheWVyJTIwc2hvb3Rpbmd8ZW58MXx8fHwxNzU3MTc3ODQyfDA&ixlib=rb-4.1.0&q=80&w=1080">
+                    <img src="https://images.unsplash.com/photo-1620947927947-3581aed45c6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYXNrZXRiYWxsJTIwcGxheWVyJTIwc2hvb3Rpbmd8ZW58MXx8fHwxNzU3MTc3ODQyfDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Player shooting basketball" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">Shooting Practice</h3>
+                        </div>
+                        <div class="gallery-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="11" cy="11" r="8"/>
+                                <path d="m21 21-4.35-4.35"/>
+                                <path d="M11 8v3m0 0v3m0-3h3m-3 0H8"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-image="https://images.unsplash.com/photo-1692607254801-0d68ecf40020?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYXNrZXRiYWxsJTIwZHJpYmJsaW5nJTIwcHJhY3RpY2V8ZW58MXx8fHwxNzU3MjYyMjg5fDA&ixlib=rb-4.1.0&q=80&w=1080">
+                    <img src="https://images.unsplash.com/photo-1692607254801-0d68ecf40020?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYXNrZXRiYWxsJTIwZHJpYmJsaW5nJTIwcHJhY3RpY2V8ZW58MXx8fHwxNzU3MjYyMjg5fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Basketball dribbling practice" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">Dribbling Drills</h3>
+                        </div>
+                        <div class="gallery-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="11" cy="11" r="8"/>
+                                <path d="m21 21-4.35-4.35"/>
+                                <path d="M11 8v3m0 0v3m0-3h3m-3 0H8"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-image="https://images.unsplash.com/photo-1720716429002-cf8206d582b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYXNrZXRiYWxsJTIwZGVmZW5zZSUyMHRyYWluaW5nfGVufDF8fHx8MTc1NzI2MjI4OXww&ixlib=rb-4.1.0&q=80&w=1080">
+                    <img src="https://images.unsplash.com/photo-1720716429002-cf8206d582b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYXNrZXRiYWxsJTIwZGVmZW5zZSUyMHRyYWluaW5nfGVufDF8fHx8MTc1NzI2MjI4OXww&ixlib=rb-4.1.0&q=80&w=1080" alt="Basketball defense training" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">Defense Training</h3>
+                        </div>
+                        <div class="gallery-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="11" cy="11" r="8"/>
+                                <path d="m21 21-4.35-4.35"/>
+                                <path d="M11 8v3m0 0v3m0-3h3m-3 0H8"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-image="https://images.unsplash.com/photo-1716041041520-ff8716890f06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYXNrZXRiYWxsJTIwdGVhbSUyMGh1ZGRsZXxlbnwxfHx8fDE3NTcyNjIyODh8MA&ixlib=rb-4.1.0&q=80&w=1080">
+                    <img src="https://images.unsplash.com/photo-1716041041520-ff8716890f06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYXNrZXRiYWxsJTIwdGVhbSUyMGh1ZGRsZXxlbnwxfHx8fDE3NTcyNjIyODh8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Basketball team huddle" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">Team Building</h3>
+                        </div>
+                        <div class="gallery-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="11" cy="11" r="8"/>
+                                <path d="m21 21-4.35-4.35"/>
+                                <path d="M11 8v3m0 0v3m0-3h3m-3 0H8"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-image="https://images.unsplash.com/photo-1721750475737-64cf5309d7bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYXNrZXRiYWxsJTIwY29uZGl0aW9uaW5nJTIwd29ya291dHxlbnwxfHx8fDE3NTcyNjIyODl8MA&ixlib=rb-4.1.0&q=80&w=1080">
+                    <img src="https://images.unsplash.com/photo-1721750475737-64cf5309d7bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYXNrZXRiYWxsJTIwY29uZGl0aW9uaW5nJTIwd29ya291dHxlbnwxfHx8fDE3NTcyNjIyODl8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Basketball conditioning workout" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">Conditioning</h3>
+                        </div>
+                        <div class="gallery-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="11" cy="11" r="8"/>
+                                <path d="m21 21-4.35-4.35"/>
+                                <path d="M11 8v3m0 0v3m0-3h3m-3 0H8"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-image="https://images.unsplash.com/photo-1721339041100-ec39e6600362?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b3VuZyUyMGJhc2tldGJhbGwlMjBwbGF5ZXJzJTIwdHJhaW5pbmd8ZW58MXx8fHwxNzU3MjYyMjg3fDA&ixlib=rb-4.1.0&q=80&w=1080">
+                    <img src="https://images.unsplash.com/photo-1721339041100-ec39e6600362?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b3VuZyUyMGJhc2tldGJhbGwlMjBwbGF5ZXJzJTIwdHJhaW5pbmd8ZW58MXx8fHwxNzU3MjYyMjg3fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Young basketball players training" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">Youth Training</h3>
+                        </div>
+                        <div class="gallery-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="11" cy="11" r="8"/>
+                                <path d="m21 21-4.35-4.35"/>
+                                <path d="M11 8v3m0 0v3m0-3h3m-3 0H8"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- View More Button -->
+            <div class="gallery-cta">
+                <button class="view-more-btn">View More Photos</button>
+            </div>
+        </div>
+
+        <!-- Lightbox Modal -->
+        <div class="lightbox" id="lightbox">
+            <div class="lightbox-content">
+                <button class="lightbox-close" id="lightboxClose">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"/>
+                        <line x1="6" y1="6" x2="18" y2="18"/>
+                    </svg>
+                </button>
+                <img id="lightboxImage" src="" alt="" class="lightbox-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="review" class="testimonials">
+        <div class="container">
+            <!-- Header -->
+            <div class="section-header">
+                <h2 class="section-title text-white">Review</h2>
+                <p class="section-description text-white-80">
+                    Don't just take our word for it. Hear from the players and families who have 
+                    experienced the Hoops Academy difference.
+                </p>
+            </div>
+
+            <!-- Testimonials Grid -->
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <!-- Stars -->
+                    <div class="testimonial-stars">
+                        <svg class="star" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                        </svg>
+                        <svg class="star" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                        </svg>
+                        <svg class="star" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                        </svg>
+                        <svg class="star" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                        </svg>
+                        <svg class="star" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                        </svg>
+                    </div>
+
+                    <!-- Quote -->
+                    <blockquote class="testimonial-quote">
+                        "Hoops Academy completely transformed my game. The coaches here don't just teach techniques - they build character and confidence. I earned a full scholarship to my dream college!"
+                    </blockquote>
+
+                    <!-- Author -->
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <img src="https://scontent.fcrk1-5.fna.fbcdn.net/v/t39.30808-6/428625096_1534904294030888_4863735230227008410_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGT0Aym7yrZSm8GkYOCb-nReH1GE6Zxl0B4fUYTpnGXQBHToMoUPriajs1R28RgN0p3NOcnyJvKxVcsxBn6aFc_&_nc_ohc=mG7Ty--C8sUQ7kNvwF-6byA&_nc_oc=AdniXX_rkBJEJZn8ki0FIoFBtnMJRFHtJW85PbOAJaMJiav99jXpg-SBfiNAA03L-Wo&_nc_zt=23&_nc_ht=scontent.fcrk1-5.fna&_nc_gid=A_7qU6Rjt5lnEcbTMud5Mg&oh=00_AfdBenpalsJM0mepvr-I4A9Z6RHCpn542cRGhlx7V8Xyyg&oe=68F6A5C6" alt="Sean Elleri Valerio">
+                        </div>
+                        <div class="author-info">
+                            <div class="author-name">Sean Elleri Valerio</div>
+                            <div class="author-role">High School Player</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <!-- Stars -->
+                    <div class="testimonial-stars">
+                        <svg class="star" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                        </svg>
+                        <svg class="star" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                        </svg>
+                        <svg class="star" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                        </svg>
+                        <svg class="star" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                        </svg>
+                        <svg class="star" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                        </svg>
+                    </div>
+
+                    <!-- Quote -->
+                    <blockquote class="testimonial-quote">
+                        "My son has been training here for two years. The improvement in his skills and confidence has been incredible. The coaches truly care about each player's development."
+                    </blockquote>
+
+                    <!-- Author -->
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <img src="https://scontent.fcrk1-5.fna.fbcdn.net/v/t39.30808-6/471741568_8795471283907615_7589290265284699747_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeE6g5xRJf4ZnYGO0URSC5ElTe4vGJdiz0dN7i8Yl2LPRwxVtCDMddL8qg-RxgYMoxEkIGRZMyjFAnAH3QhSRYaR&_nc_ohc=6ucFoGVle9cQ7kNvwGUz-Ep&_nc_oc=AdkK4l4cQ4soMD1whpAd2cxNP0873NIBJBgpMO90AfH1B-M6J6pXJLHr1FYa4sLXD68&_nc_zt=23&_nc_ht=scontent.fcrk1-5.fna&_nc_gid=XQYez7vVNwMD1SH2Gl_few&oh=00_AfdFHNPvPJxABKX4z_JmHW5cSvDCfp1xAhNgbfArfuUnjg&oe=68F2E384" alt="Harvey Jireh Sinamban">
+                        </div>
+                        <div class="author-info">
+                            <div class="author-name">Harvey Jireh Sinamban</div>
+                            <div class="author-role">Parent</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <!-- Stars -->
+                    <div class="testimonial-stars">
+                        <svg class="star" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                        </svg>
+                        <svg class="star" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                        </svg>
+                        <svg class="star" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                        </svg>
+                        <svg class="star" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                        </svg>
+                        <svg class="star" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                        </svg>
+                    </div>
+
+                    <!-- Quote -->
+                    <blockquote class="testimonial-quote">
+                        "The training I received at Hoops Academy gave me the foundation I needed to succeed at the collegiate level. The attention to detail and personalized coaching is unmatched."
+                    </blockquote>
+
+                    <!-- Author -->
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <img src="https://scontent.fcrk1-3.fna.fbcdn.net/v/t39.30808-6/482236946_9336583603121720_1463062865509746858_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeG4pI59VYL8YrTLoU3is7a6SIJCdbbxmGNIgkJ1tvGYYzXlv_UgBlKVw2HkMtx5CdQtSSZQaTfjQJqGoN3FmDSi&_nc_ohc=M7JklwGnfhAQ7kNvwG2o-69&_nc_oc=AdkNGieg-MVUyd9rMqINSfaVqwghvxr0PuagnE3fpvrtbGsURNDU_WjvrqOpIQFcrdA&_nc_zt=23&_nc_ht=scontent.fcrk1-3.fna&_nc_gid=QrnhPizlbSy1uHDGC_-Zjw&oh=00_AfddNAlzeyJv12I3e2-5-OIhKWr6o8olYlSKI9xmVuMgYQ&oe=68F2DD61" alt="Adriane Louis Cadawan">
+                        </div>
+                        <div class="author-info">
+                            <div class="author-name">Adriane Louis Cadawan</div>
+                            <div class="author-role">College Player</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom CTA -->
+            <div class="testimonials-cta">
+                <div class="rating-display">
+                    <div class="rating-stars">
+                        <svg class="star" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                        </svg>
+                        <svg class="star" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                        </svg>
+                        <svg class="star" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                        </svg>
+                        <svg class="star" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                        </svg>
+                        <svg class="star" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                        </svg>
+                    </div>
+                    <span class="rating-text">4.9/5 Average Rating</span>
+                </div>
+                <p class="rating-subtitle">Based on 150+ reviews from players and parents</p>
+                <button class="testimonials-btn">Join Our Success Stories</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <!-- Header -->
+            <div class="section-header">
+                <a href="#sendMessage" class="join-link">
+                <h2 class="section-title">Join the Team Today</h2>
+                </a>
+
+
+                <p class="section-description">
+                    Ready to start your basketball journey? Contact us today to learn more about our programs 
+                    and schedule your first training session.
+                </p>
+                <a href="#contactForm" class="contact-badge-link">
+    <div class="contact-badge">
+        Join the Team Today!
+    </div>
+</a>
+
+            </div>
+
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <div class="contact-form-card">
+                        <h3 id="sendMessage" class="contact-title">Send Us a Message</h3>
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="firstName">First Name</label>
+                                    <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastName">Last Name</label>
+                                    <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="program">Program Interest</label>
+                                <select id="program" name="program">
+                                    <option value="">Select a program</option>
+                                    <option value="skills">Skills Development</option>
+                                    <option value="shooting">Shooting Excellence</option>
+                                    <option value="defense">Defensive Mastery</option>
+                                    <option value="conditioning">Athletic Conditioning</option>
+                                    <option value="all">All Programs</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" placeholder="Tell us about your goals and any questions you have..." rows="4"></textarea>
+                            </div>
+
+                            <button type="submit" class="form-submit-btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <!-- Contact Details -->
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                            </div>
+                            <div class="contact-content">
+                                <h3>Address</h3>
+                                <p>102 Pandan Road, Brgy. Pandan<br>Angeles City, Pampanga 2009</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-content">
+                                <h3>Phone</h3>
+                                <p>(63) 995-555-9034</p>
+                                <p>(63) 928-666-6753</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                            </div>
+                            <div class="contact-content">
+                                <h3>Email</h3>
+                                <p>service@hoopsacademy.com</p>
+                                <p>training@hoopsacademy.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <polyline points="12,6 12,12 16,14"/>
+                                </svg>
+                            </div>
+                            <div class="contact-content">
+                                <h3>Hours</h3>
+                                <p>Monday - Friday: 6:00 AM - 10:00 PM</p>
+                                <p>Saturday - Sunday: 8:00 AM - 8:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Map Placeholder -->
+                    <div class="map-placeholder">
+                        <div class="map-content">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <p class="map-title">Interactive Map</p>
+                            <p class="map-subtitle">Click to view directions</p>
+                        </div>
+                    </div>
+
+                    <!-- Quick Contact CTA -->
+                    <div class="quick-contact-card">
+                        <h3 class="quick-contact-title">Ready to Get Started?</h3>
+                        <p class="quick-contact-description">
+                            Call us now for a free consultation and facility tour.
+                        </p>
+                        <button class="quick-contact-btn">Call Now: (63) 995-555-9034</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <!-- Main Footer Content -->
+            <div class="footer-main">
+                <!-- Logo & Description -->
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="footer-logo-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <circle cx="12" cy="12" r="6"/>
+                                <circle cx="12" cy="12" r="2"/>
+                            </svg>
+                        </div>
+                        <span class="footer-logo-text">Hoops Academy</span>
+                    </div>
+                    <p class="footer-description">
+                        Where Passion Meets Performance. Developing champions on and off the court 
+                        through expert coaching, character building, and a commitment to excellence.
+                    </p>
+                    
+                    <!-- Social Media Icons -->
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 6.62 5.367 11.987 11.988 11.987s11.987-5.367 11.987-11.987C24.014 5.367 18.647.001 12.017.001zM8.449 16.988c-1.297 0-2.348-1.051-2.348-2.348s1.051-2.348 2.348-2.348 2.348 1.051 2.348 2.348-1.051 2.348-2.348 2.348zm7.718 0c-1.297 0-2.348-1.051-2.348-2.348s1.051-2.348 2.348-2.348 2.348 1.051 2.348 2.348-1.051 2.348-2.348 2.348z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="YouTube">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-section">
+                    <h3 class="footer-section-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#programs">Training Programs</a></li>
+                        <li><a href="#coaches">Our Coaches</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Programs -->
+                <div class="footer-section">
+                    <h3 class="footer-section-title">Programs</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Skills Development</a></li>
+                        <li><a href="#">Shooting Excellence</a></li>
+                        <li><a href="#">Defensive Mastery</a></li>
+                        <li><a href="#">Athletic Conditioning</a></li>
+                        <li><a href="#">Private Training</a></li>
+                        <li><a href="#">Summer Camps</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Newsletter Signup -->
+            <div class="newsletter-section">
+                <div class="newsletter-content">
+                    <h3 class="newsletter-title">Stay Updated</h3>
+                    <p class="newsletter-description">Get the latest news, training tips, and program updates.</p>
+                </div>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="footer-bottom">
+                <p class="copyright">© 2025 Hoops Academy. All rights reserved. | Cadawan | Sinamban | Valerio | Zabala</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
